@@ -4,8 +4,16 @@
     margin: 0;
 }
 
-body {
+body 
+{
     background-color: #d9dcd6;
+}
+
+main
+{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .header 
@@ -75,17 +83,9 @@ p
     margin-left: 25px;
 }
 
-.main
-{
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .benefits 
 {
     margin-right: 20px;
-    margin-top: -960px;
     padding: 20px;
     clear: both;
     width: 20%;
@@ -114,22 +114,6 @@ p
     max-width: 150px;
 }
 
-.aside
-{
-    float: right;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
-
 .service
 {
     margin-bottom: 20px;
@@ -138,9 +122,8 @@ p
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    
 }
 
 .service h2 
@@ -153,3 +136,16 @@ p
 {
     max-height: 200px;
 }
+
+.footer 
+{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
